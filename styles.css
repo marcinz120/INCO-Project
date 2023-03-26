@@ -1,0 +1,279 @@
+body {
+  font-weight: 100;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+/* HEADER */
+
+.menu__list {
+  height: 65px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.menu__list-item a {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #1e1e1e;
+  text-decoration: none;
+  margin-right: 32px;
+}
+
+.menu__list-item:first-child a {
+  font-weight: 700;
+}
+
+/* SECTION HERO */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+h1 {
+  font-size: 100px;
+  color: #ce653e;
+  text-decoration: underline;
+  font-style: italic;
+  font-weight: 700;
+  letter-spacing: -3px;
+  line-height: 120%;
+  padding-left: 22px;
+  padding-top: 700px;
+}
+.hero__text {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  color: #25260b;
+  width: 536px;
+  text-align: left;
+  padding-left: 22px;
+  padding-top: 80px;
+}
+
+.hero__wrap {
+  position: relative;
+  background-image: url(./assets/bg_polignano_a_mare.png);
+  width: 100%;
+  height: 1100px;
+  background-size: cover;
+}
+
+.hero__wrap-text-box {
+  position: absolute;
+  top: 0%;
+  left: 6%;
+}
+
+img {
+  width: 100%;
+}
+
+.hero__figcaption {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+  position: absolute;
+}
+
+.hero__wrap-figcaption {
+  position: absolute;
+  top: 90%;
+  right: 10%;
+}
+
+/* SECTION MOTTO */
+
+.motto {
+  background-color: rgb(225, 232, 229);
+  height: 396px;
+  position: relative;
+}
+
+.motto p {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+  letter-spacing: 0.2em;
+  color: #434519;
+  padding-left: 22px;
+}
+
+.motto__text-wrap {
+  padding-top: 133px;
+}
+
+/* SECTION VILLAGES, NATURE, CUISINE */
+
+.blog {
+  margin-bottom: 100px;
+}
+
+.container {
+  display: flex;
+  height: 800px;
+}
+
+.container__text-wrap {
+  width: 50%;
+}
+
+.container__image {
+  width: 50%;
+}
+
+.container__image img {
+  height: 100%;
+  object-fit: cover;
+}
+
+.container__header {
+  font-weight: 700;
+  font-size: 62px;
+  line-height: 120%;
+  letter-spacing: -0.02em;
+  color: #434519;
+  padding-left: 34px;
+  padding-top: 377px;
+}
+
+.container__text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  text-align: left;
+  color: #562614;
+  padding: 30px 20px 70px 34px;
+}
+
+.container__button {
+  margin-left: 34px;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: #434519;
+  border: 3px solid #ce653e;
+  border-radius: 40px;
+  width: 200px;
+}
+
+/* SECTION NATURE - ODWRÓCONA */
+
+.container__wrap {
+  height: 800px;
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.container__image-nature {
+  filter: saturate(1.3);
+}
+
+/* SECTION DECORATION */
+
+.decoration {
+  height: 154px;
+}
+.decoration__text {
+  font-style: italic;
+  font-weight: 700;
+  font-size: 150px;
+  line-height: 48px;
+  text-align: center;
+  color: #e1e8e5;
+  text-align: right;
+  padding-top: 80px;
+}
+
+/* SECTION OUR TEAM */
+
+.our-team {
+  margin: 100px 0;
+}
+
+.our-team__boxes-wrap {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.our-team__personal-box {
+  width: 30%;
+}
+
+.our-team__header {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 72px;
+  letter-spacing: -0.02em;
+  color: #434519;
+  margin-left: 42px;
+  margin-bottom: 42px;
+}
+
+.our-team__personal-image.image-decoration {
+  border-top-left-radius: 200px;
+}
+
+.our-team__personal-header {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 54px;
+  color: #434519;
+}
+
+.our-team__personal-text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #000000;
+}
+
+/* SECTION GALLERY */
+
+.gallery {
+  position: relative;
+}
+
+.gallery__figcaption {
+  position: absolute;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #000000;
+  top: 94%;
+  right: 2%;
+}
+
+/* FOOTER */
+.footer {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.footer__text {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+}
