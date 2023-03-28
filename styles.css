@@ -2,6 +2,8 @@ body {
   font-weight: 100;
   font-family: "Poppins", sans-serif;
   box-sizing: border-box;
+  max-width: 1400px;
+  margin: 0 auto;
 }
 
 /* HEADER */
